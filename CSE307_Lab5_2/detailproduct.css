@@ -1,0 +1,15 @@
+table {
+  background-color: #cfe2ff;
+  border-color: #cfe2ff;
+}
+table th {
+  
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+

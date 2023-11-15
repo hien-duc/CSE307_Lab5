@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ABC BookStore</title>
+  </head>
+  <body>
+    <header>
+      <div id="dn">
+        <img src="/img/logoABCbook.png" alt="" id="head" />
+      </div>
+      <div id="gnav"></div>
+      <div id="log">
+        <a href="login.html"
+          ><i class="fa fa-user" aria-hidden="true"></i>
+          Login|
+        </a>
+        <a href="/CSE307_Lab4_2/HomepageRegis.html"> Registration </a>
+        <a href="#">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart
+        </a>
+      </div>
+    </header>
+
+    <div id="gnav">
+      <nav>
+        <form action="" id="log">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter the title of the book..."
+            required="true"
+          />
+          <button>Find books</button>
+        </form>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="window.location.href=''"
+            style="margin-right: 10px"
+          >
+            Hompage
+          </button>
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="window.location.href=''"
+            style="margin-right: 10px"
+          >
+            Introduction
+          </button>
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="window.location.href=''"
+            style="margin-right: 10px"
+          >
+            Contact
+          </button>
+          <div class="dropdown">
+            <a
+              class="btn btn-success dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="margin-left: 10px"
+            >
+              BOOKS BY SUBJECTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Young Publisher</a></li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Statistics Publishing House</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Bronze Needle</a></li>
+              <li><a class="dropdown-item" href="#">National University</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Artistic craft Culture</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Culture</a></li>
+              <li>
+                <a class="dropdown-item" href="#">History of geography</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Labor-Society</a></li>
+              <li><a class="dropdown-item" href="#">Science & Engineer</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a
+              class="btn btn-success dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="margin-left: 10px"
+            >
+              BOOKS BY PUBLISHER
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Young Publisher</a></li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Statistics Publishing House</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Bronze Needle</a></li>
+              <li><a class="dropdown-item" href="#">National University</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Artistic craft Culture</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Culture</a></li>
+              <li>
+                <a class="dropdown-item" href="#">History of geography</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Labor-Society</a></li>
+              <li><a class="dropdown-item" href="#">Science & Engineer</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Example single danger button -->
+      </nav>
+    </div>
+
+    <div id="body">
+      <!-- Rules on the body of the page -->
+      <article>
+        <aside id="left">
+          <p>SÁCH THEO CHỦ ĐỀ</p>
+          <div id="leftaside1">
+            <ul type="square">
+              <li><a href="#">Ngoại ngữ</a></li>
+              <li><a href="#">Công nghệ thông tin</a></li>
+              <li><a href="#">Luật</a></li>
+              <li><a href="#">Văn học</a></li>
+              <li><a href="#">Khoa học kỹ thuật</a></li>
+              <li><a href="#">Nông nghiệp</a></li>
+              <li><a href="#">Lịch sử, địa lý</a></li>
+              <li><a href="#">Kinh tế</a></li>
+              <li><a href="#">Nghệ thuật sống</a></li>
+            </ul>
+          </div>
+          <br />
+          <p>SÁCH THEO NHÀ XUẤT BẢN</p>
+          <div id="leftaside2">
+            <ul>
+              <li><a href="#">Nhà xuất bản trẻ </a></li>
+              <li><a href="#">NXB Thống kê</a></li>
+              <li><a href="#">Kim Đồng</a></li>
+              <li><a href="#">Đại học quốc gia</a></li>
+              <li><a href="#">Văn hóa nghệ thuật</a></li>
+              <li><a href="#">Văn hóa</a></li>
+              <li><a href="#">Lao động xã hội</a></li>
+              <li><a href="#">Khoa Học Kỹ Thuật</a></li>
+              <br />
+            </ul>
+          </div>
+        </aside>
+
+        <section>
+          <p>GIÁO TRÌNH TIN HỌC CƠ BẢN</p>
+          <center>
+            <table border="0">
+              <tr>
+                <td>
+                  <img
+                    style="width: 170px"
+                    src="/img/xp.jpg"
+                    alt="tin hoc co ban"
+                  />
+                </td>
+                <td>
+                  <ul>
+                    <li>
+                      Tác giả:
+                      <i style="color: rgb(9, 99, 69)">Phạm Công Anh</i>
+                    </li>
+                    <li>
+                      Đồng tác giả:
+                      <i style="color: rgb(9, 99, 69)">Lê Việt Nhân</i>
+                    </li>
+                    <li>
+                      Hiệu đính: <i style="color: rgb(9, 99, 69)">Hồng Phúc</i>
+                    </li>
+                    <li>
+                      Chủ biên:
+                      <i style="color: rgb(9, 99, 69)">Quách Tuấn Ngọc</i>
+                    </li>
+                  </ul>
+                  Nhà Xuất bản:
+                  <b style="color: red">Nhà Xuất bản trẻ</b>
+                  <br />
+                  Chủ đề:
+                  <b style="color: red">Công nghệ thông tin</b>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Nội dung cuốn sách
+                  </button>
+
+                  <div class="collapse" id="collapseExample" style="background-color: #CFE2FF;">
+                    <div class="card card-body" style="width: 500px; background-color: #CFE2FF;text-align: left;border: 0px;">
+                      Nội dung của cuốn: Tin học cơ bản Window XP gồm có 7
+                      chương:
+                      <br />
+                      Chương 1: Một số vấn đề cơ bản
+                      <br />
+                      Chương 2: Sử dụng nhanh thanh công cụ và thanh thực đơn
+                      trong My Computer và Window Explorer
+                      <br />
+                      Chương 3: Các thao tác trong Window XP
+                      <br />
+                      Chương 4: Các thiết lập trong Window XP
+                      <br />
+                      Chương 5: Bảo trì máy tính
+                      <br />
+                      Chương 6: Các phím tắt
+                      <br />Chương 7: Hỏi và đáp các thắc mắc Xin trân trọng
+                      giới thiệu cuốn sách cùng bạn
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="text-align: right">
+                  Giá bán: <b style="color: red">26,000 VND/Cuốn</b>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="text-align: right">
+                  <input
+                    type="image"
+                    name=""
+                    id=""
+                    src="/img/buy.jpg"
+                    style="width: 85px"
+                    value="Đặt mua"
+                    onclick="window.location.href='detailproduct.html'"
+                  />
+                </td>
+              </tr>
+            </table>
+          </center>
+        </section>
+
+        <aside id="right">
+          <div>
+            <p id="thl">BESTSELLER</p>
+            <p>
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"
+                    ><img
+                      src="/img/EnglishForTech.jpg"
+                      alt=""
+                    />EnglishForTech</a
+                  >
+                </p></marquee
+              >
+            </p>
+            <p>
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"><img src="/img/BARC.png" alt="" />BARC</a>
+                </p></marquee
+              >
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"
+                    ><img src="/img/harrypotter.png" alt="" />Harrypotter</a
+                  >
+                </p></marquee
+              >
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"><img src="/img/Davinci.png" alt="" />Davinci</a>
+                </p></marquee
+              >
+            </p>
+          </div>
+
+          <div id="weblink">
+            <p id="thl">THE WEBSITE LINKS</p>
+            <select name="" id="">
+              <option value="">--- Select the linking page---</option>
+              <option value="https://lib.eiu.edu.vn">
+                Eastern International University
+              </option>
+              <option value="https://eiu.edu.vn">
+                Eastern International University
+              </option>
+            </select>
+          </div>
+          <div id="access">
+            <p id="thl">ACCESS STATISTICS</p>
+            <p><b>Total Acecess: 500</b></p>
+            <p><b>Online: 3</b></p>
+          </div>
+        </aside>
+      </article>
+    </div>
+    <footer class="foot">
+      <p>©2016-ABC Bookstore: All rights reserved</p>
+      <p>
+        Website is developed to be used as a hands-on exercise in Web
+        Programming
+      </p>
+      <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+  </body>
+</html>
