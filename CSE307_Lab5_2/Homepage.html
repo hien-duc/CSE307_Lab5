@@ -18,20 +18,22 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>ABC BookStore</title>
-
-    <script>
-      function SaveContact() {
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
-      if (!name || !email || !message) {
-      alert('Please fill in all fields.');
-      return;
-      }
-      document.getElementById("result").innerHTML= name + "<br>" + email + "<br>" + message
-    </script>
   </head>
   <body>
+    <script>
+      function Checkinformation() {
+        /* const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value; */
+        /* if (!name || !email || !message) {
+          alert("Please fill in all fields.");
+          return;
+        } */
+        alert("Please fill in all fields.");
+        /* document.getElementById("result").innerHTML =
+          name + "<br>" + email + "<br>" + message; */
+      }
+    </script>
     <header>
       <div id="dn">
         <img src="/img/logoABCbook.png" alt="" id="head" />
@@ -192,58 +194,51 @@
         </aside>
 
         <section>
-          <p>Log in</p>
           <center>
-            <form
-              action="#"
-              name="dangnhap"
-              method="post"
-              style="background-color: #cfe2ff"
-            >
-              <table style="background-color: plum">
-                <tr>
-                  <td><label for="name">Tên đăng nhập:</label></td>
-                  <td><input type="text" id="name" required="true" /></td>
-                </tr>
-                <tr>
-                  <td><label for="password">Mật khẩu:</label></td>
-                  <td><input type="text" id="password" required="true" /></td>
-                </tr>
-                <tr>
-                  <td colspan="2">
-                    <center>
-                      <button style="background-color: aquamarine">
-                        Đăng nhập
-                      </button>
-                    </center>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td colspan="2">
-                    <center>
-                      <a>
-                        Not a member?<a href="#"
-                          ><u><i>Register</i></u></a
-                        >
-                      </a>
-                    </center>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td colspan="2">
-                    <center>
-                      <a href="#"
-                        ><u><i>Đổi mật khẩu</i></u></a
+            <div>
+              <p>Log in</p>
+              <center>
+                <form
+                  action=""
+                  onsubmit="Checkinformation()"
+                  style="background-color: #cfe2ff"
+                >
+                  <table style="background-color: plum" border="1">
+                    <tr>
+                      <td><label for="name">Tên đăng nhập:</label></td>
+                      <td><input type="text" id="name" /></td>
+                    </tr>
+                    <tr>
+                      <td><label for="password">Mật khẩu:</label></td>
+                      <td>
+                        <input type="text" id="password" />
+                      </td>
+                    </tr>
+                  </table>
+                  <br />
+                  <center>
+                    <button type="submit" style="background-color: aquamarine">
+                      Đăng nhập
+                    </button>
+                  </center>
+                  <br />
+                  <center>
+                    <a>
+                      Not a member?<a href="#"
+                        ><u><i>Register</i></u></a
                       >
-
-                      <br />
-                    </center>
-                  </td>
-                </tr>
-              </table>
-            </form>
+                    </a>
+                  </center>
+                  <br />
+                  <center>
+                    <a href="#"
+                      ><u><i>Đổi mật khẩu</i></u></a
+                    >
+                    <br />
+                  </center>
+                </form>
+              </center>
+            </div>
           </center>
         </section>
 

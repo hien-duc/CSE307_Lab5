@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Current Local Time</title>
+    <script>
+      function getCurrentTime() {
+        var currentDate = new Date();
+
+        var date = currentDate.toLocaleDateString();
+        var time = currentDate.toLocaleTimeString();
+
+        document.getElementById("currentDateTime").innerHTML =
+          "Current Local Time: " + date + " " + time;
+        document.write("Now:" + time);
+        document.write("Today: " + date);
+      }
+
+      window.onload = getCurrentTime;
+    </script>
+  </head>
+  <body>
+    <div id="currentDateTime"></div>
+  </body>
+</html>

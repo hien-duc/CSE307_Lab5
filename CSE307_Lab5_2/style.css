@@ -149,16 +149,12 @@ img {
   background-color: blue;
   color: aliceblue;
 }
-section img {
-  width: 180px;
-}
 
 section div {
   text-align: center;
   background-color: rgb(200, 229, 243);
-  float: left;
-  margin: 10px;
-  margin-left: 15px;
+  width: 750px;
+  height: 300px;
 }
 article #left p {
   text-align: center;
@@ -193,7 +189,7 @@ table th {
 }
 section p {
   text-align: center;
-  background-color: blue;
+  background-color: #0dcaf0;
   color: aliceblue;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -209,8 +205,4 @@ button {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-form{
-  width: 500px;
-  
 }
