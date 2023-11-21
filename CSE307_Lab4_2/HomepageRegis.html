@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ABC BookStore</title>
+  </head>
+  <body>
+    <header>
+      <div id="dn">
+        <img src="/img/logoABCbook.png" alt="" id="head" />
+      </div>
+      <div id="gnav"></div>
+      <div id="log">
+        <a href="login.html"
+          ><i class="fa fa-user" aria-hidden="true"></i>
+          Login|
+        </a>
+        <a href="/CSE307_Lab4_2/HomepageRegis.html"> Registration </a>
+        <a href="#">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart
+        </a>
+      </div>
+    </header>
+
+    <div id="gnav">
+      <nav>
+        <form action="" id="log">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter the title of the book..."
+            required="true"
+          />
+          <button>Find books</button>
+        </form>
+        <a href="Homepage.html"><u>Home Page</u></a>
+        <a href="ImageandLink.html"><u>Introduction</u></a>
+        <a href="#" id="con"><u>Contact</u></a>
+      </nav>
+    </div>
+
+    <div id="body">
+      <!-- Rules on the body of the page -->
+      <article>
+        <aside id="left">
+          <p>SÁCH THEO CHỦ ĐỀ</p>
+          <div id="leftaside1">
+            <ul type="square">
+              <li><a href="#">Ngoại ngữ</a></li>
+              <li><a href="#">Công nghệ thông tin</a></li>
+              <li><a href="#">Luật</a></li>
+              <li><a href="#">Văn học</a></li>
+              <li><a href="#">Khoa học kỹ thuật</a></li>
+              <li><a href="#">Nông nghiệp</a></li>
+              <li><a href="#">Lịch sử, địa lý</a></li>
+              <li><a href="#">Kinh tế</a></li>
+              <li><a href="#">Nghệ thuật sống</a></li>
+            </ul>
+          </div>
+          <br />
+          <p>SÁCH THEO NHÀ XUẤT BẢN</p>
+          <div id="leftaside2">
+            <ul>
+              <li><a href="#">Nhà xuất bản trẻ </a></li>
+              <li><a href="#">NXB Thống kê</a></li>
+              <li><a href="#">Kim Đồng</a></li>
+              <li><a href="#">Đại học quốc gia</a></li>
+              <li><a href="#">Văn hóa nghệ thuật</a></li>
+              <li><a href="#">Văn hóa</a></li>
+              <li><a href="#">Lao động xã hội</a></li>
+              <li><a href="#">Khoa Học Kỹ Thuật</a></li>
+              <br />
+            </ul>
+          </div>
+        </aside>
+
+        <section>
+          <center>
+            <h1>MEMBER REGISTRATION</h1>
+            <div>
+              <center>
+                <form action="">
+                  <fieldset style="width: 450px">
+                    <legend>Personal information</legend>
+
+                    <table>
+                      <tr>
+                        <td><label for="name">Full name:</label></td>
+                        <td><input type="text" id="name" required="true" /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="day">Birthday:</label></td>
+                        <td>
+                          <select name="day" id="day" required="true">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                          </select>
+                          <label for="month">Month</label>
+                          <select name="month" id="month" required="true">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
+                        </td>
+                        <td><label for="year">Year</label></td>
+                        <td>
+                          <input
+                            type="number"
+                            size="5px"
+                            id="year"
+                            required="true"
+                          />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                          <input
+                            type="radio"
+                            name="gender"
+                            id="gender"
+                            value="Male"
+                            required="true"
+                          />
+                        </td>
+                        <td>
+                          <input
+                            type="radio"
+                            name="gender"
+                            id=""
+                            value="Female"
+                          />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td colspan="3">
+                          <textarea
+                            name=""
+                            id="address"
+                            cols="40"
+                            rows="3"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="phone">Telephone:</label></td>
+                        <td colspan="3">
+                          <textarea
+                            name=""
+                            id="phone"
+                            cols="40"
+                            rows="1"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="mail">Email:</label></td>
+                        <td colspan="3">
+                          <textarea
+                            name=""
+                            id="mail"
+                            cols="40"
+                            rows="1"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                    </table>
+                  </fieldset>
+                  <br />
+                  <br />
+
+                  <fieldset style="width: 450px">
+                    <legend>Credentials:</legend>
+
+                    <table>
+                      <tr>
+                        <td><label for="loginname">Username: </label></td>
+                        <td>
+                          <textarea
+                            name=""
+                            id="loginname"
+                            cols="40"
+                            rows="1"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="loginpass">Password: </label></td>
+                        <td>
+                          <textarea
+                            name=""
+                            id="loginpass"
+                            cols="40"
+                            rows="1"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <label for="passconfirm">Confirm password: </label>
+                        </td>
+                        <td>
+                          <textarea
+                            name=""
+                            id="passconfirm"
+                            cols="40"
+                            rows="1"
+                            required="true"
+                          ></textarea>
+                        </td>
+                      </tr>
+                    </table>
+                  </fieldset>
+                  <center>
+                    <button type="submit">Login</button>
+                    <button type="reset">Cancel</button>
+                  </center>
+                </form>
+              </center>
+            </div>
+          </center>
+        </section>
+
+        <aside id="right">
+          <div>
+            <h1><strong>BESTSELLER</strong></h1>
+            <p>
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"
+                    ><img
+                      src="/img/EnglishForTech.jpg"
+                      alt=""
+                    />EnglishForTech</a
+                  >
+                </p></marquee
+              >
+            </p>
+            <p>
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"><img src="/img/BARC.png" alt="" />BARC</a>
+                </p></marquee
+              >
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"
+                    ><img src="/img/harrypotter.png" alt="" />Harrypotter</a
+                  >
+                </p></marquee
+              >
+              <marquee
+                behavior=""
+                direction="up"
+                scrollamount="5"
+                scrolldelay="100"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#"><img src="/img/Davinci.png" alt="" />Davinci</a>
+                </p></marquee
+              >
+            </p>
+          </div>
+
+          <div id="weblink">
+            <h1>THE WEBSITE LINKS</h1>
+            <select name="" id="">
+              <option value="">--- Select the linking page---</option>
+              <option value="https://lib.eiu.edu.vn">
+                Eastern International University
+              </option>
+              <option value="https://eiu.edu.vn">
+                Eastern International University
+              </option>
+            </select>
+          </div>
+          <div id="access">
+            <h1>ACCESS STATISTICS</h1>
+            <p><b>Total Acecess: 500</b></p>
+            <p><b>Online: 3</b></p>
+          </div>
+        </aside>
+      </article>
+    </div>
+    <footer class="foot">
+      <p>©2016-ABC Bookstore: All rights reserved</p>
+      <p>
+        Website is developed to be used as a hands-on exercise in Web
+        Programming
+      </p>
+      <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+  </body>
+</html>

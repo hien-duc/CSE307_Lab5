@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0.5;
+}
+
+div nav a:hover {
+  color: #900;
+}
+
+#nav {
+  padding: 10px;
+  font-size: large;
+  float: left;
+}
+
+nav {
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+#body {
+  background-color: whitesmoke;
+  clear: both;
+  width: auto;
+
+  box-shadow: 7px 7px 0px 0px aqua;
+  margin-top: 20px;
+}
+
+#dn {
+  float: left;
+}
+
+#log {
+  float: right;
+}
+
+#gnav {
+  clear: both;
+}
+
+div nav a {
+  display: inline-block;
+  border-right: 2px solid black;
+  font-size: large;
+}
+
+div nav a#con {
+  display: inline-block;
+  border-right: 0px solid black;
+}
+
+.body {
+  display: table-row;
+}
+
+aside#left,
+aside#right,
+section {
+  display: table-cell;
+  vertical-align: top;
+}
+
+aside#left {
+  width: 20%;
+}
+
+aside#right {
+  width: 20%;
+}
+
+.foot {
+  background-color: greenyellow;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 230px;
+}
+
+.container {
+  display: flex;
+}
+
+/* div#body article  aside div{} */
+#leftaside1 {
+  background-color: whitesmoke;
+  border: 3px solid blue;
+}
+
+#leftaside1 p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#leftaside1 a:hover {
+  color: red;
+}
+
+#leftaside2 {
+  background-color: whitesmoke;
+  border: 3px solid blue;
+}
+
+#leftaside2 p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#leftaside2 a:hover {
+  color: red;
+}
+#right div {
+  border: 3px solid blue;
+}
+#right div h1 {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+}
+#weblink {
+  margin-top: 20px;
+  text-align: center;
+}
+#weblink select {
+  margin: 15px;
+  text-align: center;
+}
+#access {
+  margin-top: 20px;
+}
+
+#weblink p {
+  color: red;
+}
+#access p {
+  color: red;
+}
+
+section h1 {
+  text-align: center;
+  background-color: blue;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+section div {
+  background-color: rgb(200, 229, 243);
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 700px;
+  height: 650px;
+  text-align: center;
+}
+article #left p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#buy {
+  width: 60px;
+  height: 30px;
+}
+#head {
+  width: 250px;
+  height: 180px;
+}
+#right img {
+  height: 120px;
+}
+table {
+  padding: 50px;
+}
